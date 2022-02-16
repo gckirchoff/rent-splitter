@@ -114,7 +114,7 @@
 
 	{#if people.length > 0}
 		<h4>Renters</h4>
-		<p>{people.map(({name, salary}) => `${name}: $${salary}`).join(', ')}</p>
+		<p>{people.map(({name, salary}) => `${name}: $${salary.toLocaleString()}`).join(', ')}</p>
 	{/if}
 
 	{#if bills.length > 0}
