@@ -1,0 +1,1 @@
+Splits rent based on the payments and salaries of the renters.
